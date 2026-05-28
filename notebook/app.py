@@ -11,7 +11,7 @@ st.set_page_config(
 # LOAD MODEL
 model = pickle.load(
     open(
-        "../models/random_forest_classifier.pkl",
+        "models/random_forest_classifier.pkl",
         "rb"
     )
 )
